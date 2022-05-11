@@ -1,0 +1,155 @@
+/* montserrat font import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+/* global style */
+*:hover {
+  transition: all ease 1s;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+  letter-spacing: 0px;
+  line-height: 48px;
+  color: #1d1d1d;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 60px;
+  color: #191919;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: #787878;
+  font-weight: 400;
+}
+
+.active {
+  color: #10c9c3 !important;
+}
+/* end of global style */
+
+/* header area */
+header {
+  background-color: #e9e9e9;
+  text-transform: uppercase;
+  padding: 15px 95px;
+}
+
+header .navbar-brand,
+.nav-link {
+  color: black;
+}
+
+header .nav-link {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+header .nav-link:hover,
+.nav-link:focus {
+  color: #10c9c3 !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    padding: 15px 0px;
+  }
+}
+/* end of header area */
+
+/* banner section */
+section#banner {
+  background-color: #e9e9e9;
+  padding: 150px 95px;
+}
+
+.banner-button {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #10c9c3;
+  border-radius: 0px;
+  width: 180px;
+  height: 54px;
+  background-color: #10c9c3;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  section#banner {
+    padding: 20px 0px;
+  }
+}
+/* end of banner section */
+
+/* about section */
+section#about {
+  background-color: #ffffff;
+  padding: 100px 290px;
+}
+
+section#about p.about-short {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  section#about {
+    padding: 50px 0px;
+  }
+}
+/* end of about section */
+
+/* skill section */
+section#skill div.skill-left {
+  background-color: #f7f9f9;
+  padding: 140px 80px;
+}
+
+section#skill div.skill-left .progress-title {
+  text-transform: uppercase;
+}
+
+section#skill div.skill-left .progress-title span {
+  margin-left: 20px;
+}
+
+section#skill div.skill-left .progress {
+  background-color: #D8D8D8;
+  height: 5px;
+  margin-bottom: 40px;
+}
+
+section#skill div.skill-left .progress .progress-bar {
+  background-color: #11C9C3;
+}
+
+section#skill div.skill-right {
+  background-color: #e9e9e9;
+}
+/* end of skill section */
