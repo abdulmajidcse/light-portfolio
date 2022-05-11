@@ -140,16 +140,38 @@ section#skill div.skill-left .progress-title span {
 }
 
 section#skill div.skill-left .progress {
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
   height: 5px;
   margin-bottom: 40px;
 }
 
 section#skill div.skill-left .progress .progress-bar {
-  background-color: #11C9C3;
+  background-color: #11c9c3;
 }
 
 section#skill div.skill-right {
   background-color: #e9e9e9;
 }
 /* end of skill section */
+
+/* work section */
+section#work {
+  background-color: #0fc9c3;
+  padding: 95px 100px;
+}
+
+section#work p.work-details-text {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  section#work {
+    padding: 50px 5px;
+  }
+}
+/* end of work section */
